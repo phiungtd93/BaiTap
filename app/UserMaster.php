@@ -12,8 +12,7 @@ class UserMaster extends Model
     public $timestamps = false;
     protected $primaryKey = 'user_cd';
     protected $fillable = ['user_cd', 'user_nm', 'user_ab', 'user_kn', 'password', 'user_add',
-    						'birth_day', 'gender', 'avatar', 'note', 'create_by', 'update_by',
-    						'deleted_by'];
+    						'birth_day', 'gender', 'avatar', 'note'];
     protected $date = ['deleted_at'];
 
     public function dayOffDetail() {

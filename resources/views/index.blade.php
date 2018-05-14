@@ -11,7 +11,7 @@
 				<span>Save</span>
 			</div>
         	<div class="buttonmenu" style="display: inline-block">
-        		<a href="{{ url('/search') }}" class="glyphicon glyphicon-remove-sign"></a>
+        		<a href="{{ url('/delete/{$user->user_cd}') }}" class="glyphicon glyphicon-remove-sign"></a>
 				<span>Delete</span>
 			</div>
 			<div class="buttonmenu" style="display: inline-block">
@@ -82,8 +82,8 @@
 		</div>
 
 		<div class="form-group" id="avatar">
-			<input type="file" id="fileimg" name="fileimg" onchange="loadimg()" required="true">
-			<img src="" alt="avatar" id="imgavatar" hidden="true">
+			<input type="file" id="fileimg" name="fileimg" onchange="loadimg()">
+			<img id="imgavatar">
 			{{-- <img id="avatar" src="Image/report-icon.gif"> --}}
 		</div>
 	</form>
