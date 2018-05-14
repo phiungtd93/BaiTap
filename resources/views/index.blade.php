@@ -11,7 +11,7 @@
 				<span>Save</span>
 			</div>
         	<div class="buttonmenu" style="display: inline-block">
-        		<a href="{{ url('/delete/{$user->user_cd}') }}" class="glyphicon glyphicon-remove-sign"></a>
+        		<a class="glyphicon glyphicon-remove-sign" onclick="deleted()"></a>
 				<span>Delete</span>
 			</div>
 			<div class="buttonmenu" style="display: inline-block">

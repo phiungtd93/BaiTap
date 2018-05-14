@@ -1,0 +1,58 @@
+body {
+	margin: 0px auto;
+	width: 98%;
+	font-family: Arial;
+}
+img.icon {
+	width: 30px;
+	height: 40px;
+}
+form {
+	border: 1px solid;
+	position: relative;
+	padding: 3px 3px;
+}
+div#body {
+	border-bottom-color: yellow;
+	margin: 10px 10px;
+}
+div#divbutton {
+	float: right;
+}
+div.buttonmenu {
+	width: 30px;
+	height: 50px;
+	margin: 0px 20px;
+}
+div.form-group {
+	margin: 10px 10px;
+}
+label {
+	background-color: #00B2BF;
+	width: 100px;
+	height: 25px;
+	padding: 3px 3px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+div#avatar {
+	width: 150px;
+	height: 200px;
+	border: 1px solid;
+	position: absolute;
+	top: 30px;
+	right: 450px;
+}
+select {
+	padding: 3px 3px;
+}
+input#birthday {
+	margin-right: 250px;
+}
+a.glyphicon {
+	font-size: 35px;
+}
+img#imgavatar {
+	width: 148px;
+	height: 178px;
+}

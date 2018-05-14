@@ -33,7 +33,7 @@
 		var key = bien.value;
 		//truyen gia tri key qua userid nhan
 		$.get(root + '/search', { userid : key }, function(data, status){
-			console.log(data.libs[1]);
+			// console.log(data.libs[1]);
 			document.getElementById('shortname').value = data.users.user_nm;
 			document.getElementById('kataname').value = data.users.user_kn;
 			document.getElementById('fullname').value = data.users.user_ab;
@@ -75,6 +75,14 @@
        	} else {
            preview.src = "";
        	}
+	}
+
+	function deleted() {
+		var root = '{{ url('/') }}';
+		var bien = document.getElementById('userid');
+		var id = bien.value;
+		console.log(id);
+		$.get(root + '/deleted', { userid : id });
 	}
 
 </script>

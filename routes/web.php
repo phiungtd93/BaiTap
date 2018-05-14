@@ -17,7 +17,7 @@ Route::get('/welcome', function () {
     return view('welcome')->with('datas', $datas);
 });
 Route::get('/', 'UserController@index');
-Route::get('/delete', 'UserController@delete');
+Route::get('/deleted', 'UserController@deleted');
 Route::post('/save', 'UserController@save');
 Route::get('/search', 'UserController@search');
 Route::get('/searchuser', 'UserController@searchuser');
