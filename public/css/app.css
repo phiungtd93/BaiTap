@@ -1,0 +1,12 @@
+table td {
+		padding:15px;
+	}
+#head{
+	font-size: 20px;
+}
+#head li{
+	padding: 10px;
+}
+.active {
+	background-color: #66FFCC;
+}
