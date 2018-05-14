@@ -90,6 +90,9 @@ class UserController extends Controller
     }
 
     public   function delete(Request $req) {
+    public function deleted(Request $req) {
+        $id = $req->input('userid');
+        dd($id);
         return view('/');
     }    
 
